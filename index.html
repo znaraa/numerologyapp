@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+  <meta charset="UTF-8">
+  <title>Хувь тавилангийн тоо</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>Таны хувь тавилангийн тоо юу вэ?</h1>
+
+    <label for="name">Нэрээ оруулна уу:</label>
+    <input type="text" id="name" placeholder="Нэр (Крил эсвэл Латин)">
+
+    <label for="birthdate">Төрсөн огноо:</label>
+    <input type="date" id="birthdate">
+
+    <button onclick="calculate()">Тооцоолох</button>
+
+    <div id="output-section" style="display:none;">
+      <div class="result" id="result"></div>
+      <div class="footer">
+        <p><a href="https://www.facebook.com/narmandakh.zagdragchaa/" target="_blank">Хувь тавилангийн матриц гаргуулах</a></p>
+        <p><a href="https://buymeacoffee.com/znaraa" target="_blank">☕ Намайг дэмжих</a></p>
+        <div id="fb-share">
+          <a href="#" id="shareBtn">📤 Facebook дээр хуваалцах</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
